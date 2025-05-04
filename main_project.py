@@ -1,0 +1,16 @@
+from find_best_clusters_emotion import find_cluster_k
+from find_the_best_Dimensionality_reduction import find_optimal_dimensions
+from cluster_and_externl_variables import cluster_and_external_variables
+from cluster_optimal_method_statistic_tests import statistic_test_for_clusters
+from anomalies_detection import anomalies_detection
+from explore1 import explore1
+from explore2 import explore2
+
+
+find_cluster_k()
+find_optimal_dimensions()
+cluster_and_external_variables()
+statistic_test_for_clusters()
+anomalies_detection()
+explore1()
+explore2()
