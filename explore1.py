@@ -337,7 +337,3 @@ def explore1():
     print(f"Same cluster percentage: {results['same_cluster_percentage']:.2f}%")
     print(f"Average dominance percentage: {results['dominance_percent']:.2f}%")
     print(f"Binomial test p-value: {format_p_value(results['binomial_test']['p_value'])}")
-
-
-if __name__ == "__main__":
-    main()
