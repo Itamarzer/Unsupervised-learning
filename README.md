@@ -2,3 +2,25 @@
 
 In this project, we had a singular data set that contained audio of emotions that were transformed into a tabular setting. In the data, we performed dimensional reduction and clustering analysis using different methods and explained the best. We associated the different clusters to indicate different emotions to see how different emotions can be very similar, We tested whether several emotions can be found in one message and also whether the beginning and end of each message are noise that may interfere with the correct identification of the emotions. After that, we found anomalies in the data using anomaly detection tools and tested whether these anomalies could give us some insight into the emotion expression to improve our clustering. Lastly, we propose a visualization that best characterizes the clusters we optimized. We concluded that Fuzzy C-means with LLE dimensionality reduction is the overall best algorithm, and that there is a difference within one message, and that the beginning and end of the messages are mostly an important part of it for the emotion detection. You can find our project in the pdf file found in the files, under the directory "final_project".
 
+
+---
+
+## 🛠️ Features
+
+- **Clustering Algorithms**: Implementations of K-Means, DBSCAN, Spectral Clustering, etc.
+- **Dimensionality Reduction**: Algorithms like PCA and t-SNE to reduce dimensions.
+- **Anomaly Detection**: Scripts to identify outliers in datasets.
+- **Visualization Tools**: Generate plots and elbow curves for better interpretability.
+- **Statistical Tests**: Analyze cluster validity using statistical methods.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Itamarzer/Unsupervised-learning.git
+cd Unsupervised-learning
+
+
